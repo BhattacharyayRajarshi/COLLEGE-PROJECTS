@@ -1,0 +1,38 @@
+REQUIREMENTS FOR RUNNING THE PROJECT :
+1. install tkinter in your system by writing "pip3 install tkinter" in your command prompt.
+
+NOTE : it may be the case that tkinter is already installed in your system
+
+2. install matplotlib in your system by writing "pip3 install matplotlib" in your command prompt.
+3. install PIL (Pillow) in your system by writing "pip3 install Pillow" in your command prompt.
+4. install mysql in your system using "pip3 install mysql" in your command prompt.
+5. Python IDE is required to be installed 
+
+NOTE : Please don't use Pycharm CE IDE for running this project as due to some reason
+
+Pycharm doesn't support tkinter. 
+PREFERABLE : Sublime text editor, Python raw IDE
+
+5. Before Running the dbms_project.py file kindly execute the MySQL code in the mysql.docx file 
+in the zip. Please run the code in MySQL only.
+
+LINK FOR PYTHON IDLE DOWNLOAD : https://www.python.org/downloads/
+LINK FOR MySQL DOWNLOAD : https://www.mysql.com/downloads/
+LINK FOR SUBLIME TEXT EDITOR DOWNLOAD : https://www.sublimetext.com/3
+
+NOTE : After copy-pasting the code in sublime text editor, save it as a .py file and run it using
+Ctrl + B
+
+NOTE : In the dbms_project.py file, before running the code kindly change the username, database name and password
+in the following line , wherever it appears in the code
+
+my_db = mysql.connector.connect(host="localhost", user="rajarshi", passwd="root", database="rajarshi", autocommit=True)
+
+NOTE : It is weird, but sometimes there is indentation error, so in case it happens 
+LINK : https://codebeautify.org/python-formatter-beautifier
+go to the above link, paste the code and beautify it in order to remove the indentation errors.
+
+
+IN CASE YOU ENCOUNTER ANY BUGS OR ISSUE, DONT HESITATE TO CONTACT ME.
+
+RAJARSHI BHATTACHARYAY (19BCE0296) phone : 9099157815
